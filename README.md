@@ -1,6 +1,6 @@
 ## Typescript debugging decorators
 
-```
+```typescript
 
 function logger(message: string) {
   console.log(message);
