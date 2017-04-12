@@ -1,0 +1,33 @@
+{
+  "name": "debugging-decorators",
+  "version": "0.0.1",
+  "description": "TypeScript useful debugging decorators",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --compilers ts:ts-node/register spec/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefrenchhouse/debugging-decorators.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Charly POLY <hello@charlypoly.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefrenchhouse/debugging-decorators/issues"
+  },
+  "homepage": "https://github.com/thefrenchhouse/debugging-decorators#readme",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.5.0",
+    "@types/chai-spies": "0.0.0",
+    "@types/mocha": "^2.2.40",
+    "@types/uuid": "^2.0.29",
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1"
+  }
+}
