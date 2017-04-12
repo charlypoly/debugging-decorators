@@ -1,6 +1,6 @@
 {
   "name": "debugging-decorators",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TypeScript useful debugging decorators",
   "main": "index.ts",
   "scripts": {
