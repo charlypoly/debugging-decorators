@@ -5,3 +5,4 @@ dependencies:
   pre:
     - npm install ts-node
     - npm install mocha
+    - npm install typescript
