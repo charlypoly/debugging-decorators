@@ -14,11 +14,12 @@
     "allowSyntheticDefaultImports": true,
     "removeComments": true,
     "experimentalDecorators": true,
-    "types" : ["node"],
+    "types" : ["node", "mocha"],
     "skipLibCheck": true
   },
   "include": [
     "lib/**/*",
+    "spec/*",
     "test.ts"
   ],
   "exclude": [

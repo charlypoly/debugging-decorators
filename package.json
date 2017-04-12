@@ -4,7 +4,7 @@
   "description": "TypeScript useful debugging decorators",
   "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "test": "mocha --compilers ts:ts-node/register spec/**"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
     "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "@types/uuid": "^2.0.29"
+    "@types/chai": "^3.5.0",
+    "@types/chai-spies": "0.0.0",
+    "@types/mocha": "^2.2.40",
+    "@types/uuid": "^2.0.29",
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "istanbul": "^0.4.5"
   }
 }
